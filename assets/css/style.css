@@ -8,35 +8,40 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
+/* changed class .header to header to reference HTML */
+header {
+    padding: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+/* changed color to #ffffff to match header properties */
+header h1 .seo {
+    color: #ffffff;
 }
 
-.header div {
+/* changed .header div { to header nav to reference HTML*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
+    
+/* changed .header div ul { to header nav ul to reference HTML*/
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+/* changed .header div ul li { to header nav ul li to reference HTML */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,7 +55,8 @@ p {
     font-size: 16px;
 }
 
-.hero {
+/* changed .hero to section to reference html*/
+section {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -69,13 +75,14 @@ p {
     margin-left: 25px;
 }
 
-.content {
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* changed .benefits to aside to reference HTML*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -188,13 +195,13 @@ p {
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
